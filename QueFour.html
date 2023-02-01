@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" name="num" id="height" value=""/>
+    <button type="button" onclick="Submit()"> Submit </button>
+    <span id="result"></span>
+    <script type="application/javascript">
+        function Submit(){
+            const randomVariable= prompt("Enter the number between 1 to 10");
+            const height = document.getElementById("height").value;
+            if (height == randomVariable) {
+                alert("Good Job");
+            }
+            else{
+                alert("You missed");
+            }
+        }
+    </script>
+</body>
+</html>
